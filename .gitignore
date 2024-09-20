@@ -1,2 +1,14 @@
 .env
 odd.js
+.DS_Store
+.idea
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+build/
+node_modules/
+npm-debug.log*
+Thumbs.db
+.vscode/
