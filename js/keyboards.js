@@ -9,4 +9,10 @@ function getDayMenu() {
   ]);
 }
 
-export { getDayMenu };
+function getTimeMenu() {
+  return Markup.inlineKeyboard([
+    [Markup.button.callback('07:00', 'Seven'), Markup.button.callback('12:00', 'Twelve'), Markup.button.callback('20:00', 'Eight')],
+  ]);
+}
+
+export { getDayMenu, getTimeMenu };
